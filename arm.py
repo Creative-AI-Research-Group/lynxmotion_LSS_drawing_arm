@@ -106,7 +106,7 @@ class Arm:
         self.pen_drawing_status = False
 
         # pen height from end of gripper
-        self.pen_height = 3  # inch
+        self.pen_height = 2.90  # inch
 
     #### lss shared commands ####
     # resets all joints
@@ -344,10 +344,10 @@ class Arm:
         # d4 = 11.48  # Wrist to end of gripper
 
         # original US inches
-        d1 = 4.13  # Bottom to shoulder
-        d2 = 5.61  # Shoulder to elbow
-        d3 = 6.39  # Elbow to wrist
-        d4 = 4.52  # Wrist to end of gripper
+        d1 = 4.03 # 4.13  # Bottom to shoulder
+        d2 = 5.51 # 5.61  # Shoulder to elbow
+        d3 = 6.5 # 6.39  # Elbow to wrist
+        d4 = 4.42 # 4.52  # Wrist to end of gripper
 
         x0 = targetXYZG[0]
         y0 = targetXYZG[1]
