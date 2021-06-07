@@ -13,7 +13,7 @@ It translates all the basic commands for drawing arm into LSS-class based code.
 import random
 import platform
 import numpy as np
-from math import atan2, sqrt, cos, sin, acos, pi, copysign
+from math import atan2, sqrt, cos, sin, acos, pi
 import time
 
 # Import LSS library

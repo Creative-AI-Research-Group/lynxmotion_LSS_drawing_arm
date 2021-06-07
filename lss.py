@@ -11,7 +11,6 @@
 ### Import required liraries
 import re
 import serial
-from math import sqrt, atan, acos, fabs
 
 ### Import constants
 import lss_const as lssc
